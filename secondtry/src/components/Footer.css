@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-weight: 400;
+}
+.footer{
+
+    color: white;
+    padding: 5px;
+    width: 100%;
+
+}
+.bg{
+    background-color:rgba(0, 0, 0, 0.6) ; 
+}
+.Footer2 p, .Footer2 a{
+    text-decoration: none;
+    color: white;
+}
+.tags{
+    background-color: grey;
+    margin: 0px;
+    margin-bottom: 5px !important;
+    padding: 2px 5px;
+}
