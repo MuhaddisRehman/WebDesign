@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutContainer{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.aboutImg{
+    width: 100%;
+}
+.aboutImg img{
+    width: 100%;
+}
+.progressBar{
+    Background-color: white !important;
+    margin-bottom: 10px;
+}
+.bton{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 18px;
+    border-radius: 0px;
+    padding: 0.6rem 2rem;
+    border: none;
+}
+.bton:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}

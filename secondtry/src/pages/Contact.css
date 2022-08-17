@@ -11,6 +11,8 @@ h3{
     width: 100%;
 }
 .icons{
+    overflow: auto;
+    /* flex-wrap: wrap; */
     color: white;
     width: 35%;
     display: flex;

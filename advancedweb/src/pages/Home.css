@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bs-pink: #d63384; 
+    --bs-blue: #009ef7;
+}
+body{
+    background-color: #F5F8FA !important;
+}
+.card{
+    background-color: pink;
+    padding: 2em  2.25em !important;
+    color: black;
+    min-width: 32% !important;
+    border: none !important;
+    transition: all 0.3s;
+    margin-top: 2% !important;
+    cursor: pointer;
+    
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+}
+.hoverColor1:hover{
+    color: white;
+    background-color: #F1416C;
+}
+.hoverColor3:hover{
+    color: white;
+    background-color: #50CD89;
+}
+.hoverColor2:hover{
+    color: white;
+    background-color: #009ef7;;
+}
+.h4{
+    font-size: small !important;
+}

@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import '../components/Sidebar.css';
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -13,10 +13,10 @@ function Sidebar() {
     return (
     <>
     <IconContext.Provider value={{color:"white"}}>
-        <div className="navbar">
-            <Link to="#" className='menu-bars' >
+        <div className="navbar sticky-top">
+            <NavLink to="#" className='menu-bars' >
                 <FaIcons.FaBars onClick ={showSidebar}/>
-            </Link>
+            </NavLink>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             <ul className="nav-menu-itmes" onClick={showSidebar}>
@@ -28,15 +28,15 @@ function Sidebar() {
                 {SidebarData.map ((item, index) => {
                     return (
                         <li key={index} className={item.cName}>
-                            <Link to={item.path} >
+                            <NavLink to={item.path} >
                                 {item.icon}
                                 <span>{item.title}</span>
-                            </Link>
+                            </NavLink>
                         </li>
                     );
-                  }
+                }
                 )
-                  }
+                }
             </ul>
         </nav>
         </IconContext.Provider>

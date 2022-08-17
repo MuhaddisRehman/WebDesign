@@ -10,7 +10,7 @@ import * as GrIcons from "react-icons/gr";
 export const SidebarData = [ 
     {
         title:"Portfolio",
-        path:"/", 
+        path:"/Portfolio", 
         icon:<FaIcons.FaMicrosoft/>,
         cName:"nav-text"
     }
