@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../pages/Home.css'
+import '../Home/Home.css'
 function Dashboard() {
   const [isActive, setIsActive] = useState(true);
   const [isActive1, setIsActive1] = useState(false);

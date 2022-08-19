@@ -2,13 +2,13 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
 // import Header from './components/Header';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidebar from './components/Sidebar';
-import Settings from './pages/Settings';
-import POS from './pages/POS';
-import Orders from './pages/Orders';
-import Products from './pages/Products';
+import Settings from './pages/Settings/Settings';
+import POS from './pages/POS/POS';
+import Orders from './pages/Orders/Orders';
+import Products from './pages/Products/Products';
 
 function App() {
   return (
